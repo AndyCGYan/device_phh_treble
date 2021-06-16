@@ -253,3 +253,15 @@ cc_binary {
 		"libhidlbase",
 	],
 }
+
+cc_binary {
+    name: "oplus-vibrator",
+    srcs: [
+        "oplus-vibrator.cpp",
+    ],
+    shared_libs: [
+        "vendor.oplus.hardware.lmvibrator@1.0",
+        "libutils",
+        "libhidlbase",
+    ],
+}

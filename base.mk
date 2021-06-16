@@ -210,3 +210,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
 	android.hardware.vibrator@1.3-service.meizu
+
+PRODUCT_PACKAGES += \
+	oplus-vibrator
